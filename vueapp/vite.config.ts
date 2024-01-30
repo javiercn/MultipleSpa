@@ -41,11 +41,12 @@ export default defineConfig({
             '@': fileURLToPath(new URL('./src', import.meta.url))
         }
     },
+    base: 'VueApp/',
     server: {
         proxy: {
             '^/weatherforecast': {
                 target,
-                secure: false
+                secure: false,
             }
         },
         port: 5173,

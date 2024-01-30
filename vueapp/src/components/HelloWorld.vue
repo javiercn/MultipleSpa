@@ -66,7 +66,7 @@
                 this.post = null;
                 this.loading = true;
 
-                fetch('weatherforecast')
+                fetch('/weatherforecast')
                     .then(r => r.json())
                     .then(json => {
                         this.post = json as Forecasts;
