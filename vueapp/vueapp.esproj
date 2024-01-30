@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.271090-alpha">
+﻿<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.271090-alpha">
   <PropertyGroup>
     <StartupCommand>npm run dev</StartupCommand>
     <JavaScriptTestRoot>.\</JavaScriptTestRoot>
@@ -8,4 +8,11 @@
     <!-- Folder where production build objects will be placed -->
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
   </PropertyGroup>
+
+  <Target Name="CorrectStaticWebAssetBasePath" BeforeTargets="GetCurrentProjectPublishStaticWebAssetItems">
+    <PropertyGroup>
+      <StaticWebAssetBasePath>/VueApp/</StaticWebAssetBasePath>
+    </PropertyGroup>
+  </Target>
+
 </Project>

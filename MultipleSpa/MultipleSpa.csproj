@@ -17,4 +17,12 @@
     <ProjectReference Include="..\VueApp\vueapp.esproj" />
   </ItemGroup>
 
+  <Target Name="CorrectSpaSourceTypes" BeforeTargets="GenerateStaticWebAssetsPublishManifest">
+    <ItemGroup>
+      <StaticWebAsset Condition="'%(StaticWebAsset.SourceId)' == 'AngularApp' or '%(StaticWebAsset.SourceId)' == 'vueapp'">
+        <SourceType>Project</SourceType>
+      </StaticWebAsset>      
+    </ItemGroup>
+  </Target>
+
 </Project>
