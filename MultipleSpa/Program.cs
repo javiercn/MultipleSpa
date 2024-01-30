@@ -29,6 +29,9 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+app.MapFallbackToFile("VueApp/{**path:nonfile}", "VueApp/index.html");
+app.MapFallbackToFile("AngularApp/{**path:nonfile}", "AngularApp/index.html");
+
 if (builder.Environment.IsDevelopment())
 {
     app.MapReverseProxy();
