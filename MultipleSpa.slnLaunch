@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "All",
+    "Projects": [
+      {
+        "Name": "MultipleSpa\\MultipleSpa.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "AngularApp\\AngularApp.esproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "VueApp\\vueapp.esproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
