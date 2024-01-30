@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.34528.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleSpa", "MultipleSpa\MultipleSpa.csproj", "{D1D6BFF3-45F5-4065-A977-AB0123D8E78B}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "AngularApp", "AngularApp\AngularApp.esproj", "{BFC58413-EE49-4A1D-BD8C-7DF13460FEBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{D1D6BFF3-45F5-4065-A977-AB0123D8E78B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1D6BFF3-45F5-4065-A977-AB0123D8E78B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1D6BFF3-45F5-4065-A977-AB0123D8E78B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC58413-EE49-4A1D-BD8C-7DF13460FEBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC58413-EE49-4A1D-BD8C-7DF13460FEBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC58413-EE49-4A1D-BD8C-7DF13460FEBB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BFC58413-EE49-4A1D-BD8C-7DF13460FEBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC58413-EE49-4A1D-BD8C-7DF13460FEBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC58413-EE49-4A1D-BD8C-7DF13460FEBB}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
