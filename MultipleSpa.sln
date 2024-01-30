@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleSpa", "MultipleSpa\
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "AngularApp", "AngularApp\AngularApp.esproj", "{BFC58413-EE49-4A1D-BD8C-7DF13460FEBB}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "vueapp", "VueApp\vueapp.esproj", "{C6AE781D-5CEE-4299-997A-1FFA7B5024D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,12 @@ Global
 		{BFC58413-EE49-4A1D-BD8C-7DF13460FEBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFC58413-EE49-4A1D-BD8C-7DF13460FEBB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BFC58413-EE49-4A1D-BD8C-7DF13460FEBB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C6AE781D-5CEE-4299-997A-1FFA7B5024D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6AE781D-5CEE-4299-997A-1FFA7B5024D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6AE781D-5CEE-4299-997A-1FFA7B5024D6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C6AE781D-5CEE-4299-997A-1FFA7B5024D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6AE781D-5CEE-4299-997A-1FFA7B5024D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6AE781D-5CEE-4299-997A-1FFA7B5024D6}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

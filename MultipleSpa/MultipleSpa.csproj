@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AngularApp\AngularApp.esproj" />
+    <ProjectReference Include="..\VueApp\vueapp.esproj" />
   </ItemGroup>
 
 </Project>
