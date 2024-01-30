@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+    <html>
+    <head>
+        <title>Shell</title>
+    </head>
+    <body>
+    <a href="/VueApp/">Vue App</a>
+    <a href="/AngularApp/">Vue App</a>
+    <!-- As iframes -->
+    <div class="spa-container">
+        <iframe class="custom-spa" src="/VueApp/"></iframe>
+        <iframe class="custom-spa" src="/AngularApp/"></iframe>
+    </div>
+    <style>
+        .spa-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .custom-spa {
+            width: 50%;
+            height: 100vh;
+            border: none;
+        }
+    </style>
+    </body>
+    </html>
