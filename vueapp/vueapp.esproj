@@ -7,12 +7,8 @@
     <ShouldRunBuildScript>false</ShouldRunBuildScript>
     <!-- Folder where production build objects will be placed -->
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
+	<StaticWebAssetBasePath>/VueApp/</StaticWebAssetBasePath>
+	<StaticWebAssetSourceType>Project</StaticWebAssetSourceType>
   </PropertyGroup>
-
-  <Target Name="CorrectStaticWebAssetBasePath" BeforeTargets="GetCurrentProjectPublishStaticWebAssetItems">
-    <PropertyGroup>
-      <StaticWebAssetBasePath>/VueApp/</StaticWebAssetBasePath>
-    </PropertyGroup>
-  </Target>
 
 </Project>

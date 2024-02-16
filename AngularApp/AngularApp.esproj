@@ -6,12 +6,8 @@
     <ShouldRunBuildScript>false</ShouldRunBuildScript>
     <!-- Folder where production build objects will be placed -->
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist\angular-app\browser</BuildOutputFolder>
+    <StaticWebAssetBasePath>/AngularApp/</StaticWebAssetBasePath>
+    <StaticWebAssetSourceType>Project</StaticWebAssetSourceType>
   </PropertyGroup>
-
-  <Target Name="CorrectStaticWebAssetBasePath" BeforeTargets="GetCurrentProjectPublishStaticWebAssetItems">
-    <PropertyGroup>
-      <StaticWebAssetBasePath>/AngularApp/</StaticWebAssetBasePath>
-    </PropertyGroup>
-  </Target>
 
 </Project>
